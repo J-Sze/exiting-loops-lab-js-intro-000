@@ -19,5 +19,9 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
-  
+  if (array === findFn) {
+    return array
+  } else {
+    return null
+  }
 }
