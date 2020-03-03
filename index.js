@@ -7,3 +7,7 @@ function breakOut(array, changeValue, stopValue) {
     }
     return array; 
 }
+
+function keepGoing(array, findFn) {
+  for (var)
+}
